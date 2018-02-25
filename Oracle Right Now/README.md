@@ -1,2 +1,2 @@
-# Code-Snippets
-rightnow and my code snippets
+# Oracle Right Now Widgets
+code snippets

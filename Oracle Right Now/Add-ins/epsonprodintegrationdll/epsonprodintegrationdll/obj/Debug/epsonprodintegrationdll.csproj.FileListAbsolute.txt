@@ -1,0 +1,9 @@
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\bin\Debug\epsonprodintegrationdll.dll
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\bin\Debug\epsonprodintegrationdll.pdb
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\bin\Debug\RightNow.AddIns.AddInViews.dll
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\bin\Debug\RightNow.AddIns.AddInViews.xml
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\obj\Debug\epsonprodintegrationdll.csprojResolveAssemblyReference.cache
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\obj\Debug\epsonprodintegrationdll.Properties.Resources.resources
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\obj\Debug\epsonprodintegrationdll.csproj.GenerateResource.Cache
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\obj\Debug\epsonprodintegrationdll.dll
+C:\Users\avinashow\documents\visual studio 2012\Projects\epsonprodintegrationdll\epsonprodintegrationdll\obj\Debug\epsonprodintegrationdll.pdb

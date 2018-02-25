@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>auto=true uname=cr2_rnt                    pword=testing launch=http://epson.custhelp.com/cgi-bin/epson.cfg dbname=epson</StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\avinashow\AppData\Local\Apps\2.0\3304V8XJ.V68\G3MLORRY.8WD\righ..pson_d163e684c1e033df_0010.0005_f79e69ae2ae987ae\RightNow.CX.exe</StartProgram>
+  </PropertyGroup>
+</Project>

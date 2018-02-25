@@ -1,2 +1,2 @@
 # Custom EmployeGridWidget
-Displays FederalSignal Employees
+Displays Custom Object Employees

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+        <script>
+            $(document).ready(function() {
+
+                $("ul.nav li").droppable({
+                    accept: "ul.list-group li",
+                    hoverClass: "ui-state-hover",
+                    drop:function(event, ui) {
+                        console.log(ui.draggable);
+                        console.log($($(this).children("a").attr("href")).find(".list-group").append(ui.draggable));
+                        alert("Dropped item");
+                    }
+                })
+
+                $("ul.list-group li").draggable({
+                    classes: {
+                        "ui-draggable": "dec"
+                    },
+                    cancel: "a.ui-icon", // clicking an icon won't initiate dragging
+                    //revert: "invalid", // when not dropped, the item will revert back to its initial position
+                    revert: true, // bounce back when dropped // create "copy" with original properties, but not a true clone
+                    cursor: "move",
+                    revertDuration: 0 // immediate snap
+                });
+                    
+            });
+        </script>
+        <style>
+            .dec {
+                width:100px;
+            }
+
+            #tabs {
+                border:1px solid lightgray;
+            }
+
+            .alert-success {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="Container">
+                    <div class="jumbotron">
+                        <h1>Drag & Drop Code Snippet</h1>
+                        <p>Test By Dragging the items in the tab pane.</p>
+                        <p>Drag the Items and drop over the tab.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">                
+                <div class="col-md-12">
+                    <div class="container">
+                        <div id="tabs">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation">
+                                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>     </li>
+                                <li role="presentation" class="active">
+                                    <a href="#office" aria-controls="profile" role="tab" data-toggle="tab">Office</a>
+                                </li>
+                            </ul>
+                                
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane" id="home">
+                                    <ul class="list-group" id="home-list">
+                                        <li class="list-group-item">item1</li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane active" id="office">
+                                    <ul class="list-group" id="office-list">
+                                        <li class="list-group-item">item2</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>  
+                </div>   
+            </div>
+        </div>
+    </body>
+</html>

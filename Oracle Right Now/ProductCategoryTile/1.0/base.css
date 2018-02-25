@@ -1,0 +1,126 @@
+﻿/**
+ * base.css: Base CSS for ProductCategoryTile
+ */
+.rn_ProductCategoryTile {
+	width:100%;
+	margin:0 auto;
+	height: 80%;
+}
+*{
+	box-sizing: border-box;
+}
+#home {
+	width: 1%;
+	position:fixed;
+	z-index:99;
+	bottom:30%;
+	right:0px;
+}
+
+.btn-primary-outline {
+	border-color:black;
+	background-color:white;
+	color:black;	
+	-webkit-transition: all 2s ease;
+	//transform: rotate(45deg);
+	//background: linear-gradient(to right, white 50%, black 50%);
+}
+
+.btn-primary-outline:hover {
+	background-color:black;
+	color:white;
+	//transform: rotate(0deg);
+	z-index:-1;
+	//background-position:right bottom;
+	//background: linear-gradient(to right, black 50%, white 50%);
+	
+}
+
+/*.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  /*box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+ 
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+ 
+ 
+/*.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}*/
+
+#home:hover {
+	cursor:pointer;
+	width:6%;
+}
+.container1 {
+	position:relative;
+	//top: 220px;
+	background-color: white;
+	 //border: 1px solid black;
+	 //margin: 10px;
+	 height:70%;
+	 width: 70%;
+	 margin:0 auto;
+	 //margin-top:20px;
+	 //overflow-x: hidden;
+	 //margin: 0 auto;
+	 //top:13%;
+	 //overflow: scroll;
+}
+
+
+[class*="box"], [class*="rectangle"]{
+	position:relative;
+	width: 100px;
+	height: 120px;
+	float: left;
+	margin: 1%;
+	background-size: auto auto;
+	background-position: center;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+	text-transform:capitalize;
+	//border-radius: 20px;
+	text-align:center;
+	//font-size: 18px;
+	//padding:35px;
+}
+
+.box:hover, .rectangle:hover {
+	cursor:pointer;
+	text-decoration:underline;
+	//box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	//color: blue;
+	//border: 1px solid #CCD1D1;
+	//background-color: #D3D3D3;
+}
+
+@media only screen and (min-width: 768px) {
+	.container1 {
+		//top: 20%;
+		position: relative;
+		top: 80px;	
+	}
+}
+
+@media only screen and (max-width:747px) {
+	
+	table > tr > td {
+		width: 100% !important;
+	}
+}
